@@ -37,7 +37,7 @@
     ]
   },
   "lint-staged": {
-    "./**/*.{js,jsx,ts,tsx,css,scss,md}": [
+    ".**/*": [
       "eslint --fix"
     ]
   },
