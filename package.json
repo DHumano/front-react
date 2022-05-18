@@ -37,7 +37,9 @@
     ]
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "./**/*.{js,jsx,ts,tsx,css,scss,md}": [
+      "eslint --fix"
+    ]
   },
   "devDependencies": {
     "eslint": "^8.15.0",
